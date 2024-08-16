@@ -1,0 +1,20 @@
+PODS:
+  - AudioPlayerSwift (2.0.0)
+  - CameraManager (5.1.3)
+
+DEPENDENCIES:
+  - AudioPlayerSwift
+  - CameraManager (~> 5.1)
+
+SPEC REPOS:
+  trunk:
+    - AudioPlayerSwift
+    - CameraManager
+
+SPEC CHECKSUMS:
+  AudioPlayerSwift: 26d1c95f177f5bd195be482a41538d7ab8d04dd9
+  CameraManager: 73936a52093081ba5e44914e8120ab511360f5d4
+
+PODFILE CHECKSUM: 06286d16028bf4b08b29bb72b873320edea49219
+
+COCOAPODS: 1.12.1
