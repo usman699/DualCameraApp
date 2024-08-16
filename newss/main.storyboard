@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Srm-ml-o19">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Srm-ml-o19">
     <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -25,7 +25,7 @@
                                     </constraint>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saved into Gallery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPz-Aq-ylz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saved Into Gallery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPz-Aq-ylz">
                                 <rect key="frame" x="133" y="704.5" width="148" height="20.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -442,14 +442,14 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="vHg-ld-owH"/>
-                                <exclude reference="0qc-5X-31Q"/>
-                                <exclude reference="ABg-AW-vFP"/>
-                                <exclude reference="CpW-6Y-i9V"/>
+                                <exclude reference="xvP-zi-jq5"/>
+                                <exclude reference="qkk-Qa-opA"/>
                                 <exclude reference="IEl-xg-IcU"/>
+                                <exclude reference="CpW-6Y-i9V"/>
+                                <exclude reference="ABg-AW-vFP"/>
+                                <exclude reference="0qc-5X-31Q"/>
                                 <exclude reference="SV4-aG-sQ9"/>
                                 <exclude reference="kmg-LQ-p8U"/>
-                                <exclude reference="qkk-Qa-opA"/>
-                                <exclude reference="xvP-zi-jq5"/>
                             </mask>
                         </variation>
                     </view>
@@ -625,7 +625,7 @@
                                         </constraints>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeD-7H-5H1">
-                                        <rect key="frame" x="225.5" y="23.5" width="63" height="80"/>
+                                        <rect key="frame" x="225.5" y="43.5" width="63" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="63" id="cd7-a7-mef"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="vFi-bt-7sk"/>
@@ -775,7 +775,7 @@
                                 <rect key="frame" x="358.5" y="36" width="39" height="49"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="plus.magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JJP-Dm-19T">
-                                        <rect key="frame" x="0.0" y="0.99999999999999822" width="39" height="26.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="0.5" width="39" height="26.5"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="28" id="3Zp-eH-FFg"/>
@@ -798,7 +798,7 @@
                                 <rect key="frame" x="295" y="36" width="40" height="46"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" layoutMarginsFollowReadableWidth="YES" image="plus.magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="rKZ-PZ-SON">
-                                        <rect key="frame" x="0.5" y="0.99999999999999822" width="39" height="28.333333333333329"/>
+                                        <rect key="frame" x="0.5" y="0.5" width="39" height="28.5"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="2DZ-FV-ah7"/>
@@ -968,14 +968,14 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="G2S-nv-uf9"/>
+                                <exclude reference="oUf-pE-NA9"/>
+                                <exclude reference="hzd-14-gBf"/>
+                                <exclude reference="6LW-wX-gz5"/>
+                                <exclude reference="bo2-9y-DWB"/>
+                                <exclude reference="lWa-0j-qTQ"/>
                                 <exclude reference="0LL-yn-Oyr"/>
                                 <exclude reference="5qt-LQ-lcn"/>
-                                <exclude reference="6LW-wX-gz5"/>
                                 <exclude reference="QvI-u1-9V0"/>
-                                <exclude reference="bo2-9y-DWB"/>
-                                <exclude reference="hzd-14-gBf"/>
-                                <exclude reference="lWa-0j-qTQ"/>
-                                <exclude reference="oUf-pE-NA9"/>
                             </mask>
                         </variation>
                     </view>
